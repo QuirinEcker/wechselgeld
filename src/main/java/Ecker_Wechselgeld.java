@@ -1,3 +1,22 @@
+/*----------------------------------------------------------
+ *                 HTL-Leonding / Klasse: 1AHITM
+ * ----------------------------------------------------------
+ * Übungsnr.:   16
+ * Übungstitel: Wechselgeld
+ * Autoren:     Quirin Ecker
+ * Version:     1.0
+ * Datum:       29.10.2017
+ * ----------------------------------------------------------
+ * Kurzbeschreibung:
+ * Berechnung des Wechselgeld.
+ *
+ * ----------------------------------------------------------
+ * Beschreibung der grundlegenden Lösungsidee:
+ * Berechnung des Wechselgeld durch Rest (modulo).
+ *
+ * ----------------------------------------------------------
+*/
+
 import java.util.Scanner;
 
 public class Ecker_Wechselgeld {
