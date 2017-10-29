@@ -26,7 +26,6 @@ public class Ecker_Wechselgeld {
         int rest4;
         int rest5;
         int rest6;
-        int rest7;
 
         System.out.print("Geben sie bitte einen Betrag ein (zwischen 0 und 100 Cent): ");
         eingabe = scanner.nextInt();
@@ -50,7 +49,6 @@ public class Ecker_Wechselgeld {
         rest6 = rest5 % ZWEICENT;
 
         eincent = rest6 / EINCENT;
-        rest7 = rest6 % EINCENT;
 
         System.out.println("Anzahl der  1 Euro - Münzen : " + eineur);
         System.out.println("Anzahl der 50 Cent - Münzen : " + fuenfzigcent);
@@ -59,13 +57,5 @@ public class Ecker_Wechselgeld {
         System.out.println("Anzahl der  5 Cent - Münzen : " + fuenfcent);
         System.out.println("Anzahl der  2 Cent - Münzen : " + zweicent);
         System.out.println("Anzahl der  1 Cent - Münzen : " + eincent);
-
-
-
-
-
-
-
-
     }
 }
